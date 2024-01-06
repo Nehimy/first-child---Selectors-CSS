@@ -9,3 +9,28 @@
   box-sizing: border-box;
 }
 
+nav {
+    width: 250px;
+    height: 100vh;
+    background: aliceblue;
+    padding-top: 100px;
+    padding-left: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:first-child {
+    color: red;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
